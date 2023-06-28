@@ -18,6 +18,8 @@
 # 0020          ; White_Space # Zs       SPACE
 #                              ...
 
+# Just something interesting about identifiew parsing: https://www.unicode.org/reports/tr31/
+
 import re
 
 def extract_property(input_file_path: str, property_name: str, output_property_name: str = None):
