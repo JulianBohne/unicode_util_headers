@@ -1,10 +1,10 @@
 
-#ifndef UNICODE_IS_ALPHABETIC
-#define UNICODE_IS_ALPHABETIC
+#ifndef UNICODE_IS_ALPHA
+#define UNICODE_IS_ALPHA
 
 #include <stdint.h>
 
-bool u_is_alphabetic(uint32_t code_point) {
+bool u_is_alpha(uint32_t code_point) {
     switch(code_point) {
         case 0x41:
         case 0x42:
@@ -137777,4 +137777,5 @@ bool u_is_alphabetic(uint32_t code_point) {
             return false;
     }
 }
-#endif // UNICODE_IS_ALPHABETIC
+
+#endif // UNICODE_IS_ALPHA

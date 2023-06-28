@@ -37,4 +37,5 @@ bool u_is_whitespace(uint32_t code_point) {
             return false;
     }
 }
+
 #endif // UNICODE_IS_WHITESPACE
